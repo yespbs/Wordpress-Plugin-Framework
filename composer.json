@@ -7,7 +7,13 @@
         "nesbot/Carbon": "*"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.5@dev"
+        "fzaninotto/faker": "~1.5@dev",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+          "WPPF": "src/"
+        }
     },
     "license": "MIT",
     "authors": [
