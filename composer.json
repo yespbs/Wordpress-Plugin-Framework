@@ -4,7 +4,8 @@
     "require": {
         "php": ">=5.3",  
         "guzzlehttp/guzzle": "~5.0@dev",
-        "nesbot/Carbon": "*"
+        "nesbot/Carbon": "*",
+        "monolog/monolog": "~1.11@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.5@dev",

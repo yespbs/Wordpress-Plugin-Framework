@@ -18,8 +18,7 @@ Text Domain: wppf
  * @version 1.0.0 
  */
 if ( !function_exists( 'add_action' ) ) {
-	echo 'Deny direct call.';
-	exit;
+	die( 'Deny direct call.' );	
 }
 
 require 'vendor/autoload.php';

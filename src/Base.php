@@ -21,10 +21,6 @@ class Base
 	 */ 	
 	public static function autoload()
 	{
-		//echo \Carbon\Carbon::now();
-
-		// add_action('init', array());
-
 		static::plugins_loaded();
 	}
 
