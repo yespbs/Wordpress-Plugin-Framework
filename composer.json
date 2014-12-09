@@ -1,0 +1,19 @@
+{
+    "name": "yespbs/wppf",
+    "description": "Wordpress Plugin Framework",
+    "require": {
+        "php": ">=5.3",  
+        "guzzlehttp/guzzle": "~5.0@dev"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.5@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Priyabrata Sarkar",
+            "email": "yespbs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
